@@ -1,0 +1,20 @@
+#num=int(input("Введите число: "))
+#
+#for i in range(-num, num):
+#    print(i)
+
+
+flag = True
+for x in range(0, 2):
+    for y in range(0,2):
+        for z in range (0,2):
+            if ((not x) & (not y) & (not z)) != (not (x | y | z)):
+                flag=False
+                break
+if flag:
+    print ("Утверждение истинно при любых значения X Y Z")
+else:
+    print ("Утверждение не истинно")
+
+
+
