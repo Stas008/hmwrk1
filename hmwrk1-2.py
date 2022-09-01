@@ -1,8 +1,3 @@
-#num=int(input("Введите число: "))
-#
-#for i in range(-num, num):
-#    print(i)
-
 
 flag = True
 for x in range(0, 2):
